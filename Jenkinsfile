@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/Moaaz-amr/20216099/tree/master'
+                git 'https://github.com/Moaaz-amr/20216099'
             }
         }
         stage('Run Bash Script') {
